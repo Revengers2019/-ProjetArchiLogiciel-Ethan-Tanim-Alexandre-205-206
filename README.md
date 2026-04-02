@@ -1,11 +1,11 @@
-# 📚 Médiathèque — Réservation / Emprunt / Retour
+#  Médiathèque — Réservation / Emprunt / Retour
 
 > **Ethan / Tanim / Alexandre — Groupes 205-206**  
 > R4.01 Architecture Logicielle — BUT2 FI — 2025/2026
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 | Projet | Rôle |
 |--------|------|
@@ -57,7 +57,7 @@ ProjetArchiLogiciel_Ethan_Tanim_Alexandre_205-206/
 
 ---
 
-## ⚙️ Compilation
+##  Compilation
 
 ### 1. bttp2 → jar
 ```powershell
@@ -86,7 +86,7 @@ cd ..
 
 ---
 
-## 🚀 Lancement
+##  Lancement
 
 **Terminal 1 — serveur (ne pas fermer) :**
 ```powershell
@@ -102,7 +102,7 @@ java -cp "client/out;libs/bttp2.jar" client.ClientRetour
 
 ---
 
-## 🧪 Tests automatiques
+##  Tests automatiques
 
 ```powershell
 .\tests.ps1
