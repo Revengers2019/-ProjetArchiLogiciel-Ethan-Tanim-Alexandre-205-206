@@ -74,7 +74,6 @@ Test-Client 14 "Reservation abonne banni" "KO" "client.ClientReservation" @("3",
 # T11 Emprunt direct sans réservation
 Test-Client 15 "Emprunt direct sans reservation" "OK" "client.ClientEmprunt" @("4", "D005")
 
-
 Write-Host ""
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "   RESULTATS : $OK OK  |  $KO ECHEC" -ForegroundColor Cyan
